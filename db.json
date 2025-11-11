@@ -1,0 +1,248 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "title": "Toyota Sequoia",
+      "engine": "4.7 L",
+      "places": "7 seats",
+      "year": "2021",
+      "type": "4WD",
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762353256/kg-tour/gznro6v5qg9dgdhhefqg.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Toyota 4Runner TRD PRO",
+      "engine": "4.0 L",
+      "places": "4 seats",
+      "year": "2020",
+      "type": "4WD",
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762353205/kg-tour/yd77ug75vwk7wn3zyvl2.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Toyota Sequoia",
+      "engine": "4.7 L",
+      "places": "7 seats",
+      "year": "2022",
+      "type": "4WD",
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762353300/kg-tour/vlytrys1lyjusad5vjja.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Mercedes Sprinter",
+      "engine": "2.2 L",
+      "places": "12 seats",
+      "year": "2019",
+      "type": "4WD",
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762353340/kg-tour/v88l0ee2fzc4bshgsfjo.jpg"
+    }
+  ],
+  "socials": [
+    {
+      "id": 1762250414142,
+      "title": "instagram",
+      "url": "https://www.instagram.com/sadykov_mk?igsh=bTdlNXZyZjl2dHMy&utm_source=qr"
+    },
+    {
+      "id": 1762250684571,
+      "title": "whatsapp",
+      "url": "https://wa.me/+996702191998"
+    },
+    {
+      "id": 1762250716585,
+      "title": "facebook",
+      "url": "www.facebook.com"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1762252741166,
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762340711/kg-tour/pmius9dtyxkxtumkr2qt.jpg",
+      "region": "Issyk Kul region",
+      "title": "Issyk Kul lake",
+      "text": "Swim in the crystal-clear waters of Issyk-Kul Lake, relax on its golden beaches, admire the surrounding majestic mountains, and discover the legends of the Pearl of the Silk Road.\",\n",
+      "description": "Issyk-Kul Lake, often called the \\\"Pearl of the Silk Road,\\\" is a vast alpine lake nestled among the towering Tien Shan mountains. As one of the largest and deepest saline lakes in the world, it never freezes—even in winter—thanks to its unique mineral composition. For centuries, it served as a resting place for traders and travelers on the Silk Road. Today, visitors can enjoy its crystal-clear waters, explore nearby petroglyphs, and take in breathtaking views of the surrounding snow-capped peaks, making it a perfect blend of natural beauty and ancient history.\",\n",
+      "bg": "https://35photo.pro/photos_main/2187/10935512.jpg",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d753529.4097032326!2d76.59606620867761!3d42.46020109831376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3885ab108e4effa9%3A0x7621f668ba6d1c83!2z0JjRgdGB0YvQui3QmtGD0LvRjA!5e0!3m2!1sru!2skg!4v1762252613481!5m2!1sru!2skg",
+      "images": [
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762341077/kg-tour/a7feel7yx5k6fwjwn6gi.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762341078/kg-tour/x5uacso3g2gvrs8re5um.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762341079/kg-tour/k7g1wdr0ptszxvsdlbbx.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762340712/kg-tour/xy5xg3cfzmtedarwqvef.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762341079/kg-tour/kuzvpzmhocxx3iti9rpp.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762341082/kg-tour/zoawact9g4nhsle3rje9.jpg"
+      ]
+    },
+    {
+      "id": 1762426904510,
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762426885/kg-tour/yoyind01xsalvnwok9w1.png",
+      "region": "Jalal-Abad region",
+      "title": "Sary Chelek Lake",
+      "text": "Explore the pristine wilderness of Sary-Chelek Biosphere Reserve, hike through lush forests and deep gorges, and discover the serene beauty of the alpine lake surrounded by towering peaks.",
+      "description": "Sary-Chelek Biosphere Reserve is a pristine natural sanctuary located in the Western Tian Shan mountains. Known for its deep canyons, dense forests, and the stunning Sary-Chelek Lake, this UNESCO-listed reserve offers visitors a peaceful retreat to explore diverse wildlife, alpine meadows, and crystal-clear waters. It's a perfect destination for hiking, birdwatching, and reconnecting with untouched nature far from the city bustle.",
+      "bg": "https://res.cloudinary.com/deo45yho0/image/upload/v1762689491/kg-tour/vmxvax8l5rnvtzeyhqs8.jpg",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.810563606245!2d71.93755371166505!3d41.89693097111969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a477e9b9a78199%3A0xc50db17847bef729!2sSary-Chelek%20Biosphere%20Reserve!5e0!3m2!1sen!2skg!4v1750492089745!5m2!1sen!2skg",
+      "images": [
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762426888/kg-tour/jjxoxlexqbnoy5z1sr6h.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762426889/kg-tour/zl1lb4v1mpmk3ht9zu7z.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762426890/kg-tour/zu9svpoxkrrjgpuhg2gh.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762426892/kg-tour/c6o32ej5zahqd9hptmpy.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762426896/kg-tour/hhbpuvw5ekv1rcpgupva.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762426904/kg-tour/otdzn38fcnl40sx5tzcq.png"
+      ]
+    },
+    {
+      "id": "1",
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762690176/kg-tour/fyzu6r9r1wct9prbutc9.jpg",
+      "region": "Tokmok city",
+      "title": "Burana Tower",
+      "text": "Climb the ancient Burana Tower, explore the ruins of a lost city, and uncover the secrets of the Silk Road. Built in the 11th century, it stands as one of the oldest architectural monuments in Central Asia.",
+      "description": "The Burana Tower is a historic minaret located near the ancient city of Balasagun, once a thriving stop on the Silk Road. Built in the 11th century, it stands as one of the oldest architectural monuments in Central Asia. Visitors can climb to the top for panoramic views of the Chuy Valley. Surrounding the tower are ancient stone carvings known as balbals and remnants of old city walls. The site offers a fascinating glimpse into the region’s rich nomadic and Islamic heritage.",
+      "images": [
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762690154/kg-tour/rj6exqu3s5nagt4rbrf3.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762690155/kg-tour/c7cdqk8bshj28nm6o8gv.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762690156/kg-tour/m801u9qnxmovokpuaotl.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762690177/kg-tour/kazxbq3ozoj1pcir5ebv.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762690158/kg-tour/js0dxkkdcbdhbz6wbxh9.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762690159/kg-tour/nswt92yarv7nyqp4mkuh.jpg"
+      ],
+      "bg": "https://res.cloudinary.com/deo45yho0/image/upload/v1762690531/kg-tour/vtim6hktbd8rec7qzor9.jpg",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d629673.8753490128!2d74.82906237060105!3d42.869474622757075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389bf3fd4de734ad%3A0x3fd30e77c732683e!2z0JHRg9GA0LDQvdCw!5e0!3m2!1sru!2skg!4v1761570964250!5m2!1sru!2skg"
+    },
+    {
+      "id": "6",
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691171/kg-tour/ffmnoer7cswhe0smbauc.jpg",
+      "region": "Chui region",
+      "title": "Ala-Archa National park",
+      "text": "Hike through the stunning gorges of Ala Archa National Park, breathe in the crisp mountain air, and marvel at snow-capped peaks just a short drive from Bishkek.",
+      "description": "Ala Archa National Park, nestled in the Tian Shan mountains just 40 km from Bishkek, is a stunning natural reserve known for its alpine scenery, glacier-fed rivers, and dramatic gorges. Once a favorite training ground for Soviet mountaineers, the park now attracts hikers, climbers, and nature lovers from around the world. Visitors can explore scenic trails, picnic by crystal-clear streams, or attempt challenging ascents to peaks like Uchitel. Its rich biodiversity and easy access make it a must-visit escape into Kyrgyzstan’s wilderness.",
+      "images": [
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691161/kg-tour/vfik38xnjih3wusesdnu.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691162/kg-tour/mjkc77cvylu792oe7fp9.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691163/kg-tour/c0qjahy9g3ffns23n3gn.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691164/kg-tour/z5xb92b4z1oaa4qmbszt.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691166/kg-tour/xytsxwqhxrmu7qzgjruk.webp",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762859813/kg-tour/q7toamaxlxsfaca8ngjr.jpg"
+      ],
+      "bg": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691172/kg-tour/hmq0xizeflryyfvg33sm.jpg",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.779340156461!2d74.4777380117035!3d42.64483767104758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3899315dc3d516fb%3A0x9d52fa7255944e52!2sAla%20Archa%20National%20Park!5e0!3m2!1sen!2skg!4v1750418255215!5m2!1sen!2skg\"width=\"600\"height=\"450\"style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"referrerpolicy=\"no-referrer-when-downgrade",
+      "price": "",
+      "duration": "",
+      "difficulty": "",
+      "groupSize": ""
+    },
+    {
+      "id": "8",
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691443/kg-tour/zodqan7tvguf5czadyrn.jpg",
+      "region": "Chui Region",
+      "title": "Chon Kemin valley",
+      "text": "Explore the stunning Chon-Kemin Valley on horseback, ride through alpine meadows and rivers, and experience the peaceful beauty of Kyrgyz mountains.",
+      "description": "Chon-Kemin Valley is a breathtaking mountain valley located in the Northern Tian Shan range, known for its lush meadows, crystal-clear rivers, and rich nomadic heritage. Visitors can embark on thrilling horseback riding tours, experience exhilarating rafting adventures along the valley’s fast-flowing rivers, hike through pristine alpine forests and expansive pastures, and immerse themselves in the authentic Kyrgyz mountain lifestyle. This valley offers the perfect blend of adventure, natural beauty, and cultural discovery, making it an unforgettable destination for all types of travelers.",
+      "images": [
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691428/kg-tour/bjgmul5abolnziufpgwj.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691429/kg-tour/tvsicrcqayjyoou5xkit.webp",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691430/kg-tour/dbmn9jw7gni0ifsriqsp.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691431/kg-tour/wuj5kmucot9ewn6bwmeq.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691432/kg-tour/nvajbou4t8ck1hkkjvwc.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691434/kg-tour/fe3bbvg8czxb6wmdfkmr.jpg"
+      ],
+      "bg": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691444/kg-tour/maqxhb3p8mu2wkmuk0gg.webp",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187598.41877695752!2d75.96662634900206!3d42.72012201698356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389b6996fb17fff3%3A0x1495f6a9fa060fee!2sChon-Kemin!5e0!3m2!1sen!2skg!4v1750426361358!5m2!1sen!2skg\"width=\"600\" height=\"450\" style=\"border:0;\" allowFullScreen=\"\" loading=\"lazy\"referrerPolicy=\"no-referrer-when-downgrade",
+      "price": "",
+      "duration": "",
+      "difficulty": "",
+      "groupSize": ""
+    },
+    {
+      "id": "9",
+      "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691894/kg-tour/bcfwo8jpr1qxqbgfdlyr.jpg",
+      "region": "Chui Region",
+      "title": "Bishkek and around of city",
+      "text": "Discover the vibrant city of Bishkek and escape to nearby mountain getaways like Chunkurchak, Kashka-Suu, and Ala-Medin Gorge. Just a short drive from the capital, these scenic spots offer hiking, picnicking, and breathtaking views—perfect for a day trip into the heart of Kyrgyz nature",
+      "description": "Discover Bishkek, Kyrgyzstan’s vibrant capital nestled at the foot of the Tian Shan mountains. Explore its wide boulevards, green parks, and bustling bazaars. Just outside the city, enjoy day trips to breathtaking spots like Ala-Archa National Park, the ski resort of Chunkurchak, the peaceful Kashka-Suu valley, and the scenic Ala-Medina gorge. It’s the perfect gateway to nature, adventure, and culture—all in one place.\"\n",
+      "images": [
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691594/kg-tour/xj2b26yxqdrilm73mdmo.webp",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691595/kg-tour/cei0zxtdd5y1y8xxg3im.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691600/kg-tour/pbbejfdpctfmu4rout8k.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691609/kg-tour/haaq6odvtrn8g0t4ozfz.jpg",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691611/kg-tour/ecoesqetfm68z0cuud6d.webp",
+        "https://res.cloudinary.com/deo45yho0/image/upload/v1762691613/kg-tour/qhjwatvakpx3twocyvvm.jpg"
+      ],
+      "bg": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691642/kg-tour/yc9etyg9pouegryawsfh.jpg",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93549.52240711205!2d74.52310609949508!3d42.88503033100999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec86a8bb5b873%3A0x222c5538e7365c36!2sBishkek%20City!5e0!3m2!1sen!2skg!4v1750440901792!5m2!1sen!2skg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade",
+      "price": "",
+      "duration": "",
+      "difficulty": "",
+      "groupSize": ""
+    }
+  ],
+  "tours": [
+    {
+      "id": "3",
+      "days": 3,
+      "title": "Issyk-Kul with horse riding tour",
+      "description": "Embark on an unforgettable journey through the breathtaking landscapes and rich heritage of Kyrgyzstan. Begin at the crystal-clear Issyk-Kul Lake, the \"pearl of Central Asia,\" where majestic mountains meet turquoise waters. Explore the cultural charm of Cholpon-Ata, home to ancient petroglyphs and the open-air Ruh Ordo cultural complex.\n\nStep back in time at the historic Burana Tower, a remnant of the ancient Silk Road city of Balasagun, surrounded by mysterious stone balbals. Breathe in fresh alpine air at Ala-Archa National Park, a mountain paradise just a short drive from the capital.\n\nVenture into the serene beauty of Kashka-Suu and Chunkurchak gorges, where rolling green hills and dramatic cliffs invite you to reconnect with nature. Experience the unspoiled tranquility of Chon-Kemin Valley, a land of sweeping pastures, traditional villages, and awe-inspiring mountain views.\n\nThis adventure seamlessly blends history, culture, and nature — a perfect escape into the soul of Kyrgyzstan.",
+      "bg": "https://res.cloudinary.com/deo45yho0/image/upload/v1762346023/kg-tour/swhkjcqexr36kizfoqei.webp",
+      "season": "Summer/Winter",
+      "maps": "https://res.cloudinary.com/deo45yho0/image/upload/v1762343585/kg-tour/lqfn1egooohhvp5gqk3o.png",
+      "itineraries": [
+        {
+          "id": "1",
+          "title": "Meeting, departure to Kashka Suu gorge to the Cable Cars. Visit to Ala-Archa National Park, departure to the Sky Bridge.",
+          "images": [
+            "https://res.cloudinary.com/deo45yho0/image/upload/v1762344226/kg-tour/qjkpbl4m4rgnbgbsh86c.jpg",
+            "https://res.cloudinary.com/deo45yho0/image/upload/v1762344266/kg-tour/f8hsrxziujfchlszbswv.jpg",
+            "https://res.cloudinary.com/deo45yho0/image/upload/v1762344308/kg-tour/xrhlkdng904ouprxperp.jpg"
+          ],
+          "description": "The tour begins with a meeting in Bishkek and a drive to the beautiful Kashka-Suu Gorge. There, guests take a scenic cable car ride with panoramic mountain views.\n\nNext, the journey continues to Ala-Archa National Park, where visitors enjoy a short walk surrounded by alpine landscapes, rivers, and pine forests.\n\nThe final stop is the Sky Bridge — a thrilling suspension bridge with stunning views of the gorge. Afterward, the group returns to Bishkek filled with fresh impressions and memories of Kyrgyzstan’s mountain beauty."
+        },
+        {
+          "id": "2",
+          "title": "Drive to Tokmok city. Stop in Burana Tower. Departure to Chon Kemin valley. Horse Riding tour.",
+          "images": [
+            "https://res.cloudinary.com/deo45yho0/image/upload/v1762344423/kg-tour/creo6dh28jpr3v5ddjuk.jpg",
+            "https://res.cloudinary.com/deo45yho0/image/upload/v1762344511/kg-tour/bupgs9xjza6ecys9rsz2.jpg"
+          ],
+          "description": "The tour continues with a drive to Tokmok city and a visit to the historic Burana Tower, an ancient minaret from the 11th century. After exploring the site and its open-air museum, the journey goes on to the scenic Chon-Kemin Valley. Surrounded by mountains and forests, guests enjoy a peaceful horse riding tour through the valley before settling in for the evening."
+        },
+        {
+          "id": "3",
+          "title": "Drive to Issyk Kul Region. Departure to Cholpon Ata city. Spending time near of Issyk Kul lake. Visit 'Rukh Ordo' Culture center",
+          "images": [
+            "https://res.cloudinary.com/deo45yho0/image/upload/v1762344550/kg-tour/bb6vmyo9jwvi3yef9trd.jpg",
+            "https://res.cloudinary.com/deo45yho0/image/upload/v1762344586/kg-tour/mva7ksc3r3hefdnax9cq.jpg",
+            "https://res.cloudinary.com/deo45yho0/image/upload/v1762344632/kg-tour/c28qnggjcmzov9o8dexz.jpg"
+          ],
+          "description": "The final day of the tour begins with a drive to the Issyk-Kul Region, followed by a visit to Cholpon-Ata city. Guests enjoy free time by the shores of the beautiful Issyk-Kul Lake — perfect for relaxing, walking, or swimming. A visit to the Rukh Ordo Cultural Center offers a unique cultural experience, combining history, spirituality, and art in a scenic open-air setting. In the evening, the group gathers for a farewell dinner to celebrate the journey and share final memories before returning to Bishkek."
+        }
+      ],
+      "locations": [
+        {
+          "id": "9",
+          "title": "Bishkek and around of city",
+          "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691894/kg-tour/bcfwo8jpr1qxqbgfdlyr.jpg"
+        },
+        {
+          "id": "6",
+          "title": "Ala-Archa National park",
+          "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691171/kg-tour/ffmnoer7cswhe0smbauc.jpg"
+        },
+        {
+          "id": "1",
+          "title": "Burana Tower",
+          "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762690176/kg-tour/fyzu6r9r1wct9prbutc9.jpg"
+        },
+        {
+          "id": "8",
+          "title": "Chon Kemin valley",
+          "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762691443/kg-tour/zodqan7tvguf5czadyrn.jpg"
+        },
+        {
+          "id": 1762252741166,
+          "title": "Issyk Kul lake",
+          "image": "https://res.cloudinary.com/deo45yho0/image/upload/v1762340711/kg-tour/pmius9dtyxkxtumkr2qt.jpg"
+        }
+      ]
+    }
+  ]
+}
