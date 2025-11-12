@@ -1,5 +1,5 @@
 "use client"
-import {useEffect, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import {useGetByIdTour, useTour} from "@/stores/tourStore";
@@ -12,6 +12,9 @@ const CardDetails = () => {
     const getByIdTour = useGetByIdTour()
     const {id} = useParams()
     const [openIndex, setOpenIndex] = useState(null);
+    const scrollRef = useRef(null);
+    const isUserScrolling = useRef(false);
+    const lastTouchX = useRef(0);
 
     const toggle = (index) => {
         setOpenIndex(openIndex === index ? null : index);
@@ -19,6 +22,64 @@ const CardDetails = () => {
     useEffect(() => {
         getByIdTour(id)
     }, [getByIdTour, id]);
+
+    useEffect(() => {
+        const el = scrollRef.current;
+        if (!el) return;
+
+        let scrollAmount = 0;
+        let animationFrame;
+
+        const speed = 0.4;
+
+        const step = () => {
+            if (!isUserScrolling.current) {
+                scrollAmount += speed;
+                if (scrollAmount >= el.scrollWidth / 2) {
+                    scrollAmount = 0;
+                }
+                el.scrollLeft = scrollAmount;
+            }
+            animationFrame = requestAnimationFrame(step);
+        };
+
+        animationFrame = requestAnimationFrame(step);
+
+        const handleWheel = () => {
+            isUserScrolling.current = true;
+            clearTimeout(el._scrollTimeout);
+            el._scrollTimeout = setTimeout(() => (isUserScrolling.current = false), 1000);
+        };
+
+        const handleTouchStart = (e) => {
+            isUserScrolling.current = true;
+            lastTouchX.current = e.touches[0].clientX;
+        };
+
+        const handleTouchMove = (e) => {
+            const deltaX = lastTouchX.current - e.touches[0].clientX;
+            el.scrollLeft += deltaX;
+            lastTouchX.current = e.touches[0].clientX;
+        };
+
+        const handleTouchEnd = () => {
+            clearTimeout(el._scrollTimeout);
+            el._scrollTimeout = setTimeout(() => (isUserScrolling.current = false), 1000);
+        };
+
+        el.addEventListener("wheel", handleWheel);
+        el.addEventListener("touchstart", handleTouchStart);
+        el.addEventListener("touchmove", handleTouchMove);
+        el.addEventListener("touchend", handleTouchEnd);
+
+        return () => {
+            cancelAnimationFrame(animationFrame);
+            el.removeEventListener("wheel", handleWheel);
+            el.removeEventListener("touchstart", handleTouchStart);
+            el.removeEventListener("touchmove", handleTouchMove);
+            el.removeEventListener("touchend", handleTouchEnd);
+        };
+    }, []);
     if (!tour) {
         return (
             <div className="flex items-center justify-center h-screen text-white">
@@ -288,8 +349,7 @@ const CardDetails = () => {
                                                 <div className="px-4 md:px-6 pb-4 md:pb-6 pt-2">
                                                     {itinerary.images && itinerary.images.length > 0 && (
                                                         <div className="mb-4 md:mb-6">
-                                                            <div
-                                                                className="md:hidden overflow-x-auto scrollbar-hide -mx-4 px-4">
+                                                            <div ref={scrollRef} className="md:hidden overflow-x-auto whitespace-nowrap scrollbar-hide -mx-4 px-4">
                                                                 <div className="flex gap-3 pb-2">
                                                                     {itinerary.images.map((img, imgIndex) => (
                                                                         <div
