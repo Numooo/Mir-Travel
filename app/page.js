@@ -20,7 +20,7 @@ function PageContent() {
     useEffect(() => {
         images.forEach((src) => {
             const img = new Image();
-            img.src = src;
+            img.src = src; // браузер кэширует изображение
         });
     }, []);
     useEffect(() => {

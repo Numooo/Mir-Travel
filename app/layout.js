@@ -30,6 +30,9 @@ export default function RootLayout({ children }) {
             <meta name="keywords" content={metadata.keywords} />
             <link rel="icon" href={metadata.icons.icon} />
             <link rel="apple-touch-icon" href={metadata.icons.apple} />
+            <link rel="preload" as="image" href="/assets/бир.jpg" />
+            <link rel="preload" as="image" href="/assets/issykkul.jpg" />
+            <link rel="preload" as="image" href="/assets/karakolbg.webp" />
 
             {/* Open Graph (Facebook, LinkedIn и т.д.) */}
             <meta property="og:title" content={metadata.title} />
