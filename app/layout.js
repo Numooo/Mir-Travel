@@ -2,15 +2,16 @@ import "./globals.css";
 import Head from "next/head";
 
 export const metadata = {
-    title: "Mir Travel",
-    description: "Unforgettable travel experiences!",
+    title: "Mir Travel – Tours in Kyrgyzstan",
+    description: "Unforgettable travel experiences in Kyrgyzstan! Discover the best routes, guides, and tips for travelers exploring Kyrgyzstan.",
+    keywords: "Kyrgyzstan tours, travel in Kyrgyzstan, excursions Kyrgyzstan, adventure trips Kyrgyzstan, Kyrgyzstan attractions, vacation Kyrgyzstan",
     icons: {
         icon: "/logo.png",
         shortcut: "/logo.png",
         apple: "/logo.png",
     },
-    url: "https://mirtravel.asia", // основной URL сайта
-    twitterHandle: "@mirtravel", // твой Twitter (если есть)
+    url: "https://mirtravel.asia",
+    twitterHandle: "@mirtravel",
 };
 
 export default function RootLayout({ children }) {
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
             {/* Основные мета-теги */}
             <title>{metadata.title}</title>
             <meta name="description" content={metadata.description} />
+            <meta name="keywords" content={metadata.keywords} />
             <link rel="icon" href={metadata.icons.icon} />
             <link rel="apple-touch-icon" href={metadata.icons.apple} />
 
