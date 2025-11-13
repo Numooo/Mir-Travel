@@ -1,10 +1,9 @@
 "use client";
 
-import {Suspense, useEffect, useState} from "react";
+import { Suspense, useEffect, useState } from "react";
 import Footer from "@/components/Footer";
 import Hero from "@/app/main/Hero";
 import LocationCard from "@/app/main/LocationCard";
-import TopSlider from "@/app/main/TopSlider";
 import IncludedExcluded from "@/app/main/IncludedExcluded";
 import TourCard from "@/app/main/TourCard";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -15,27 +14,42 @@ function PageContent() {
         "/assets/issykkul.jpg",
         "/assets/karakolbg.webp",
     ];
+
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [fade, setFade] = useState(true);
+    useEffect(() => {
+        images.forEach((src) => {
+            const img = new Image();
+            img.src = src;
+        });
+    }, []);
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentIndex((prev) => (prev + 1) % images.length);
+            setFade(false);
+            setTimeout(() => {
+                setCurrentIndex((prev) => (prev + 1) % images.length);
+                setFade(true);
+            }, 500);
         }, 10000);
         return () => clearInterval(interval);
-    }, [images.length]);
+    }, []);
+
     return (
         <div className="relative overflow-hidden">
             <div
-                className="fixed inset-0 -z-10 bg-cover bg-center transition-all duration-1000"
+                className={`fixed inset-0 -z-10 bg-cover bg-center transition-opacity duration-500 ${
+                    fade ? "opacity-100" : "opacity-0"
+                }`}
                 style={{ backgroundImage: `url(${images[currentIndex]})` }}
             />
-            <div className="absolute inset-0 bg-black/50"/>
+            <div className="absolute inset-0 bg-black/50" />
             <div className="relative z-10">
-                <Hero/>
-                <LocationCard/>
-                <IncludedExcluded/>
-                <TourCard/>
-                <Footer/>
-                <WhatsAppButton/>
+                <Hero />
+                <LocationCard />
+                <IncludedExcluded />
+                <TourCard />
+                <Footer />
+                <WhatsAppButton />
             </div>
         </div>
     );
@@ -43,8 +57,8 @@ function PageContent() {
 
 export default function Page() {
     return (
-        <Suspense fallback={<div>Loading...</div>}>
-            <PageContent/>
+        <Suspense fallback={<div role="status" aria-live="polite">Loading...</div>}>
+            <PageContent />
         </Suspense>
     );
 }
